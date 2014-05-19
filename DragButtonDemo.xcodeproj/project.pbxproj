@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33CC08751929E1A600E462E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CC08741929E1A600E462E1 /* Foundation.framework */; };
+		33CC08771929E1A600E462E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CC08761929E1A600E462E1 /* CoreGraphics.framework */; };
+		33CC08791929E1A600E462E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CC08781929E1A600E462E1 /* UIKit.framework */; };
+		33CC087F1929E1A600E462E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33CC087D1929E1A600E462E1 /* InfoPlist.strings */; };
+		33CC08811929E1A600E462E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CC08801929E1A600E462E1 /* main.m */; };
+		33CC08851929E1A600E462E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CC08841929E1A600E462E1 /* AppDelegate.m */; };
+		33CC08881929E1A600E462E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CC08861929E1A600E462E1 /* Main.storyboard */; };
+		33CC088B1929E1A600E462E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CC088A1929E1A600E462E1 /* ViewController.m */; };
+		33CC088D1929E1A600E462E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CC088C1929E1A600E462E1 /* Images.xcassets */; };
+		33CC08941929E1A600E462E1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CC08931929E1A600E462E1 /* XCTest.framework */; };
+		33CC08951929E1A600E462E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CC08741929E1A600E462E1 /* Foundation.framework */; };
+		33CC08961929E1A600E462E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CC08781929E1A600E462E1 /* UIKit.framework */; };
+		33CC089E1929E1A600E462E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33CC089C1929E1A600E462E1 /* InfoPlist.strings */; };
+		33CC08A01929E1A600E462E1 /* DragButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CC089F1929E1A600E462E1 /* DragButtonDemoTests.m */; };
+		33CC08AB1929E1BC00E462E1 /* UIButton+NMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CC08AA1929E1BC00E462E1 /* UIButton+NMCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33CC08971929E1A600E462E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33CC08691929E1A600E462E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33CC08701929E1A600E462E1;
+			remoteInfo = DragButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33CC08711929E1A600E462E1 /* DragButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CC08741929E1A600E462E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33CC08761929E1A600E462E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33CC08781929E1A600E462E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33CC087C1929E1A600E462E1 /* DragButtonDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragButtonDemo-Info.plist"; sourceTree = "<group>"; };
+		33CC087E1929E1A600E462E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33CC08801929E1A600E462E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33CC08821929E1A600E462E1 /* DragButtonDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DragButtonDemo-Prefix.pch"; sourceTree = "<group>"; };
+		33CC08831929E1A600E462E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33CC08841929E1A600E462E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33CC08871929E1A600E462E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33CC08891929E1A600E462E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33CC088A1929E1A600E462E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33CC088C1929E1A600E462E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33CC08921929E1A600E462E1 /* DragButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CC08931929E1A600E462E1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		33CC089B1929E1A600E462E1 /* DragButtonDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragButtonDemoTests-Info.plist"; sourceTree = "<group>"; };
+		33CC089D1929E1A600E462E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33CC089F1929E1A600E462E1 /* DragButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragButtonDemoTests.m; sourceTree = "<group>"; };
+		33CC08A91929E1BC00E462E1 /* UIButton+NMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+NMCategory.h"; sourceTree = "<group>"; };
+		33CC08AA1929E1BC00E462E1 /* UIButton+NMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NMCategory.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33CC086E1929E1A600E462E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CC08771929E1A600E462E1 /* CoreGraphics.framework in Frameworks */,
+				33CC08791929E1A600E462E1 /* UIKit.framework in Frameworks */,
+				33CC08751929E1A600E462E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CC088F1929E1A600E462E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CC08941929E1A600E462E1 /* XCTest.framework in Frameworks */,
+				33CC08961929E1A600E462E1 /* UIKit.framework in Frameworks */,
+				33CC08951929E1A600E462E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33CC08681929E1A600E462E1 = {
+			isa = PBXGroup;
+			children = (
+				33CC087A1929E1A600E462E1 /* DragButtonDemo */,
+				33CC08991929E1A600E462E1 /* DragButtonDemoTests */,
+				33CC08731929E1A600E462E1 /* Frameworks */,
+				33CC08721929E1A600E462E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33CC08721929E1A600E462E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33CC08711929E1A600E462E1 /* DragButtonDemo.app */,
+				33CC08921929E1A600E462E1 /* DragButtonDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33CC08731929E1A600E462E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33CC08741929E1A600E462E1 /* Foundation.framework */,
+				33CC08761929E1A600E462E1 /* CoreGraphics.framework */,
+				33CC08781929E1A600E462E1 /* UIKit.framework */,
+				33CC08931929E1A600E462E1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33CC087A1929E1A600E462E1 /* DragButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				33CC08831929E1A600E462E1 /* AppDelegate.h */,
+				33CC08841929E1A600E462E1 /* AppDelegate.m */,
+				33CC08861929E1A600E462E1 /* Main.storyboard */,
+				33CC08891929E1A600E462E1 /* ViewController.h */,
+				33CC088A1929E1A600E462E1 /* ViewController.m */,
+				33CC08A91929E1BC00E462E1 /* UIButton+NMCategory.h */,
+				33CC08AA1929E1BC00E462E1 /* UIButton+NMCategory.m */,
+				33CC088C1929E1A600E462E1 /* Images.xcassets */,
+				33CC087B1929E1A600E462E1 /* Supporting Files */,
+			);
+			path = DragButtonDemo;
+			sourceTree = "<group>";
+		};
+		33CC087B1929E1A600E462E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33CC087C1929E1A600E462E1 /* DragButtonDemo-Info.plist */,
+				33CC087D1929E1A600E462E1 /* InfoPlist.strings */,
+				33CC08801929E1A600E462E1 /* main.m */,
+				33CC08821929E1A600E462E1 /* DragButtonDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33CC08991929E1A600E462E1 /* DragButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				33CC089F1929E1A600E462E1 /* DragButtonDemoTests.m */,
+				33CC089A1929E1A600E462E1 /* Supporting Files */,
+			);
+			path = DragButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		33CC089A1929E1A600E462E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33CC089B1929E1A600E462E1 /* DragButtonDemoTests-Info.plist */,
+				33CC089C1929E1A600E462E1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33CC08701929E1A600E462E1 /* DragButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CC08A31929E1A700E462E1 /* Build configuration list for PBXNativeTarget "DragButtonDemo" */;
+			buildPhases = (
+				33CC086D1929E1A600E462E1 /* Sources */,
+				33CC086E1929E1A600E462E1 /* Frameworks */,
+				33CC086F1929E1A600E462E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragButtonDemo;
+			productName = DragButtonDemo;
+			productReference = 33CC08711929E1A600E462E1 /* DragButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33CC08911929E1A600E462E1 /* DragButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CC08A61929E1A700E462E1 /* Build configuration list for PBXNativeTarget "DragButtonDemoTests" */;
+			buildPhases = (
+				33CC088E1929E1A600E462E1 /* Sources */,
+				33CC088F1929E1A600E462E1 /* Frameworks */,
+				33CC08901929E1A600E462E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33CC08981929E1A600E462E1 /* PBXTargetDependency */,
+			);
+			name = DragButtonDemoTests;
+			productName = DragButtonDemoTests;
+			productReference = 33CC08921929E1A600E462E1 /* DragButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33CC08691929E1A600E462E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Self.牛萌";
+				TargetAttributes = {
+					33CC08911929E1A600E462E1 = {
+						TestTargetID = 33CC08701929E1A600E462E1;
+					};
+				};
+			};
+			buildConfigurationList = 33CC086C1929E1A600E462E1 /* Build configuration list for PBXProject "DragButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33CC08681929E1A600E462E1;
+			productRefGroup = 33CC08721929E1A600E462E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33CC08701929E1A600E462E1 /* DragButtonDemo */,
+				33CC08911929E1A600E462E1 /* DragButtonDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33CC086F1929E1A600E462E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CC088D1929E1A600E462E1 /* Images.xcassets in Resources */,
+				33CC087F1929E1A600E462E1 /* InfoPlist.strings in Resources */,
+				33CC08881929E1A600E462E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CC08901929E1A600E462E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CC089E1929E1A600E462E1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33CC086D1929E1A600E462E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CC088B1929E1A600E462E1 /* ViewController.m in Sources */,
+				33CC08851929E1A600E462E1 /* AppDelegate.m in Sources */,
+				33CC08AB1929E1BC00E462E1 /* UIButton+NMCategory.m in Sources */,
+				33CC08811929E1A600E462E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CC088E1929E1A600E462E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CC08A01929E1A600E462E1 /* DragButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33CC08981929E1A600E462E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33CC08701929E1A600E462E1 /* DragButtonDemo */;
+			targetProxy = 33CC08971929E1A600E462E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33CC087D1929E1A600E462E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33CC087E1929E1A600E462E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33CC08861929E1A600E462E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33CC08871929E1A600E462E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33CC089C1929E1A600E462E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33CC089D1929E1A600E462E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33CC08A11929E1A600E462E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33CC08A21929E1A600E462E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33CC08A41929E1A700E462E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragButtonDemo/DragButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "DragButtonDemo/DragButtonDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33CC08A51929E1A700E462E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragButtonDemo/DragButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "DragButtonDemo/DragButtonDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		33CC08A71929E1A700E462E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DragButtonDemo.app/DragButtonDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragButtonDemo/DragButtonDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DragButtonDemoTests/DragButtonDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		33CC08A81929E1A700E462E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DragButtonDemo.app/DragButtonDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragButtonDemo/DragButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "DragButtonDemoTests/DragButtonDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33CC086C1929E1A600E462E1 /* Build configuration list for PBXProject "DragButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CC08A11929E1A600E462E1 /* Debug */,
+				33CC08A21929E1A600E462E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33CC08A31929E1A700E462E1 /* Build configuration list for PBXNativeTarget "DragButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CC08A41929E1A700E462E1 /* Debug */,
+				33CC08A51929E1A700E462E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33CC08A61929E1A700E462E1 /* Build configuration list for PBXNativeTarget "DragButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CC08A71929E1A700E462E1 /* Debug */,
+				33CC08A81929E1A700E462E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33CC08691929E1A600E462E1 /* Project object */;
+}
